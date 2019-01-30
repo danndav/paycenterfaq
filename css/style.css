@@ -1,0 +1,112 @@
+.box-panel {
+    padding: 10px 60px;
+    margin-bottom: 16px;
+    /* box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    -moz-box-shadow: 9px 15px 35px 1px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 15px 9px 35px 13px rgba(0, 0, 0, 0.19);
+    box-shadow: 9px 15px 35px 1px rgba(0, 0, 0, 0.19);
+
+
+    background: white;
+    align-self: auto;
+    padding: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cen {
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+body {
+    /* padding-right: 70px;
+    padding-left: 70px; */
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container-fluid {
+    background-image: url(../assets/Group273.svg);
+    background-size: cover;
+    width: 100%;
+}
+
+.but {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 5px;
+    background-color: #007bff;
+}
+
+.form-group {
+    margin-bottom: 190px;
+}
+
+.form-row {
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .box-panel {
+        padding: 5px 5px;
+        margin-bottom: 16px;
+        box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.12);
+        background: white;
+        align-self: auto;
+        padding: auto;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 10px;
+    }
+
+    .but {
+        /* border: none; */
+        color: white;
+        padding: 4px 4px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 15px 15px;
+        font-size: 15px;
+        cursor: pointer;
+        width: 40%;
+        background-color: #007bff;
+    }
+
+    .form-row {
+        font-size: 15px;
+    }
+
+    .cen {
+        align-self: center;
+        align-content: center;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.fir {
+    height: 20%;
+    min-height: 400px;
+    background-image: linear-gradient(#004080, #12054C);
+    padding-top: 50px;
+    background-repeat: no-repeat;
+}
